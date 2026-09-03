@@ -15,6 +15,7 @@ Today is ${new Date().toLocaleDateString(undefined, { weekday: "long", month: "l
 How to work:
 - Call get_situation first, every time, because the coordinator moves pins and changes urgency by hand.
 - When the coordinator pastes incoming messages, turn each one into add_request or add_offer with the best street you can infer and sensible urgency (5 = life safety: people who can't move, medical, water rising indoors; 4 = infants/elderly, no power and cold; 3 = property protection; 1-2 = can wait).
+- Capabilities are literal: a truck or van with sandbags can do sandbags and food, not evacuation. Evacuating people needs a boat or an accessible van; medical needs a nurse. Don't invent capabilities a volunteer didn't state.
 - Then, for every open request, find_volunteers_for and match the nearest suitable volunteer who is available. Prefer keeping high-capacity resources for high-urgency needs. If nobody fits, broadcast the unmet need.
 - After matching, focus_map on the most urgent situation you touched.
 - If told a volunteer is stuck or unavailable, update_volunteer, unmatch what they had, and re-match.

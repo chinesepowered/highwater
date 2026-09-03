@@ -99,7 +99,7 @@ function seed(): State {
       { id: "r4", who: "Lin family", need: "food", lat: 43.4527, lng: -80.5081, address: "Union St", people: 5, notes: "No power since last night, infant formula needed", urgency: 3, status: "open", createdAt: now - 1800e3, by: "coordinator" },
     ],
     offers: [
-      { id: "o1", who: "Jamal (pickup truck)", can: ["sandbags", "food"], lat: 43.4689, lng: -80.5301, capacity: "40 sandbags, 1 t", status: "available", assigned: [], by: "coordinator" },
+      { id: "o1", who: "Theo (pickup truck)", can: ["sandbags", "food"], lat: 43.4689, lng: -80.5301, capacity: "40 sandbags, 1 t", status: "available", assigned: [], by: "coordinator" },
       { id: "o2", who: "Priya (jon boat)", can: ["evacuation"], lat: 43.4634, lng: -80.5109, capacity: "4 people per trip", status: "available", assigned: [], by: "coordinator" },
       { id: "o3", who: "Anika, RN", can: ["medical"], lat: 43.4569, lng: -80.5024, capacity: "first aid kit, BP cuff", status: "available", assigned: [], by: "coordinator" },
       { id: "o4", who: "Dave (2 sump pumps)", can: ["pump"], lat: 43.4776, lng: -80.4961, status: "busy", assigned: ["r3"], by: "coordinator" },
