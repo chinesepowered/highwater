@@ -33,7 +33,7 @@ export default function AidMap() {
 
   return (
     <MapContainer center={[A.CENTER.lat, A.CENTER.lng]} zoom={14} className="h-full w-full" zoomControl={false} attributionControl>
-      <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> · CARTO' url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png" />
+      <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://tile.openstreetmap.org/{z}/{x}/{y}.png" />
       <FocusController focus={s.focus} version={s.focusVersion} />
       {s.requests
         .filter((r) => r.status === "matched" && r.matchedTo)

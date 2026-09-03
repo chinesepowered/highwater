@@ -37,7 +37,7 @@ pnpm dev
 
 ## Stack
 
-Next.js 16 · Leaflet + react-leaflet (CARTO/OpenStreetMap tiles) · Tailwind 4 · Gemini function calling · WebMCP (`document.modelContext`)
+Next.js 16 · Leaflet + react-leaflet (OpenStreetMap tiles) · Tailwind 4 · Gemini function calling · WebMCP (`document.modelContext`)
 
 Fictional scenario and people; not an emergency service.
 
