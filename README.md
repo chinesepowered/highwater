@@ -4,7 +4,7 @@
 
 When the Grand River comes up, help is a group chat: forty unread messages, a spreadsheet nobody updates, and a volunteer with a truck who doesn't know where to go. Highwater is one map. Requests and volunteers are pins. The coordinator drags pins, bumps urgency and marks things done by hand. The dispatch agent reads the same board through WebMCP, logs what comes in, matches the nearest suitable volunteer, draws the dispatch line, and broadcasts what's still unmet.
 
-Built for [The WebMCP Challenge](https://webmcp.devpost.com/).
+Built for [The WebMCP Challenge](https://webmcp.devpost.com/). **Live: https://highwater-six.vercel.app**
 
 ## Why WebMCP
 

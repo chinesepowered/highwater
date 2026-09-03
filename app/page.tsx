@@ -3,11 +3,11 @@
 import dynamic from "next/dynamic";
 import { useEffect, useSyncExternalStore } from "react";
 import AgentPanel from "@/components/AgentPanel";
-import Board from "@/components/Board";
 import * as A from "@/lib/aid";
 import { aidTools } from "@/lib/tools";
 import { registerTools } from "@/lib/webmcp";
 
+const Board = dynamic(() => import("@/components/Board"), { ssr: false });
 const AidMap = dynamic(() => import("@/components/AidMap"), { ssr: false, loading: () => <div className="grid h-full place-items-center text-slate-400">Loading map…</div> });
 
 const SYSTEM = `You are the dispatch agent for Highwater, a neighbourhood mutual-aid board during the Grand River flood in Waterloo, Ontario. You work alongside a human coordinator who sees the same map and lists you edit.
